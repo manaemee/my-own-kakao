@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.screen-header {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header__title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.header__icons span {
+  margin-left: 15px;
+}
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.header__icons .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
+}

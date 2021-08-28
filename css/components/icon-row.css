@@ -1,0 +1,15 @@
+.shopping-icons {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.shopping-icons__column span {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+.shopping-icons__column div {
+  font-weight: 1000;
+}

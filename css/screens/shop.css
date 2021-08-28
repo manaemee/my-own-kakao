@@ -1,0 +1,58 @@
+.shopping-icons__column span {
+  color: var(--green);
+}
+.shopping-icons__column div {
+  color: var(--green);
+}
+.shopping-icons__column span:hover {
+  color: green;
+}
+.shopping-search-content span {
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.shopping-search input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  border: var(--boxline);
+}
+.shopping-search i {
+}
+
+.shopping-point {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.shopping-point__column {
+  display: flex;
+}
+.shopping-point__column span {
+  margin-left: 10px;
+}
+.user-component__column-shopping img {
+  width: 100px;
+  height: 100px;
+}
+.available-gift {
+  background-color: var(--light-grey);
+}
+.available-gift__column {
+  margin: 20px 0px;
+  padding: 0px 10px;
+  opacity: 0.6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-gift-box button {
+  background-color: var(--light-grey);
+  width: 100%;
+  border: var(--boxline);
+  padding: 10px 0px;
+}

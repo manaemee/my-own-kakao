@@ -1,0 +1,48 @@
+.nav__list {
+  box-sizing: border-box;
+  padding: 18px 20px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0px;
+  border-top: var(--boxline);
+}
+.nav__link {
+  position: relative;
+}
+.nav__column__link__number {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  right: -9px;
+  top: -11px;
+}
+.nav__dot {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: tomato;
+  position: absolute;
+  top: -7px;
+  right: -13px;
+}
+@keyframes navbigger {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scale(2);
+  }
+}
+.nav__btn:hover {
+  animation: navbigger 1s ease-in-out;
+}

@@ -1,0 +1,123 @@
+.more-wallet {
+  margin: 10px;
+  opacity: 0.5;
+  padding: 15px 0px;
+  background-color: var(--light-grey);
+}
+.more-wallet__row:first-child .more-wallet__column__title:first-child {
+color: green;
+}
+.more-wallet__column__certificate {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.more-wallet__column {
+  display: flex;
+  align-items: center;
+ 
+}
+@keyframes appearfrombelow{
+  from{
+    opacity: 0;
+    
+  }
+  to{
+    opacity: 1;
+    transform: none;
+  }
+}
+.more-wallet__animation h3{
+transform: translateY(30px);
+opacity: 0;
+ animation: appearfrombelow 1s ease-in-out forwards;
+}
+.more-wallet__animation h3:nth-child(2){
+  animation-delay: 0.4s;
+}
+
+.more-wallet__animation h3:last-child{
+  animation-delay: 0.8s;
+}
+
+.more-wallet__row {
+  display: flex;
+  margin-bottom: 18px;
+}
+.more-wallet__row {
+  justify-content: space-between;
+}
+.more-wallet__column span {
+  margin-right: 8px;
+}
+.more-wallet__column h3 {
+  font-size: 18px;
+  margin-right: 8px;
+}
+.more-wallet__row:nth-child(3)
+  .more-wallet__column:first-child
+  h3:not(.more-wallet__column__title__notpadding) {
+  padding-right: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.shopping-icons__column__more span,
+.shopping-icons__column__more div {
+  color: black;
+  opacity: 0.7;
+}
+
+.shopping-icons__column__more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+width: 25%;
+
+}
+.suggestions__icons{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.suggestions__column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.suggestions__title{
+  border-top: var(--boxline);
+  padding: 10px 0px;
+  margin: 15px 0px;
+}
+
+
+.suggestions__column__img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 5px 15px;
+  
+}
+
+/*<div class="shopping-icons ">
+        <div class="shopping-icons__column shopping-icons__column__more ">
+            <span><i class="fas fa-utensils fa-lg"></i></span>
+            <div>Order</div>
+        </div>
+        <div class="shopping-icons__column shopping-icons__column__more">
+            <span><i class="fas fa-ticket-alt fa-lg"></i></span>
+            <div>Movie</div>
+        </div>
+        <div class="shopping-icons__column shopping-icons__column__more">
+            <span><i class="fas fa-gamepad fa-lg"></i></span>
+            <div>Games</div>
+        </div>
+        <div class="shopping-icons__column shopping-icons__column__more">
+            <span><i class="fas fa-taxi fa-lg"></i></span>
+            <div>Taxi</div>
+        </div>
+
+    </div>

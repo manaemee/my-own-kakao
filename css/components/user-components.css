@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+   
+.friends-screen{
+    
+    padding: 0px var(--horizontal-space);
+    }
+
+.user-component{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+
+}
+
+.user-component:first-child,
+.chats-user-component
+{
+    display: flex;
+    padding: 10px 0px;
+   
+}
+.chats-user-component{
+    border-bottom: none;
+}
+.user-component__column:first-child{
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.user-component__column__time{
+    display: block;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+.user-component__title{
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    font-weight: 500;
+}
+.user-component__subtitle{
+    margin-top: 8px;
+    font-size: 17px;
+    color: rgba(0,0,0,0.4);
+}
+.user-component__avatar-XL{
+    width: 80px;
+    height: 80px;
+   }
+   .user-component__avatar-SM{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+   }
+ 
+
+
+.user-component__avatar-SM{
+    width: 60px;
+    height: 60px;
+}
+.friends-list{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 0px;
+    opacity: 0.4;
+}
+
+.user-component-sm{
+    margin-bottom: 10px;
+}
+.user-component-sm .user-component__title{
+    font-size: 18px;
+}
+.user-component__2ndcolumn{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end
+}
+
+.user-component__shopping{
+    border-bottom: var(--boxline);
+}
+
+/*<div class="user-component">
+    <div class="user-componet__column">
+        <img class="user-component__avatar" src="#" />
+        <div class="user-component__text">
+            <h4 class="user-component__title">Rory</h4>
+            
+        </div>
+    </div>

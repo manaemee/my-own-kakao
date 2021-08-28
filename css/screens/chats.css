@@ -1,0 +1,12 @@
+.chats-screen .user-component {
+  border: none;
+}
+.chats-screen .user-component__title {
+  font-size: 22px;
+  font-weight: 550;
+}
+.chats-screen .user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

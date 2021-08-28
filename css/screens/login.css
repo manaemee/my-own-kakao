@@ -1,0 +1,63 @@
+.welcome-header {
+  text-align: center;
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 90px 0px;
+}
+@keyframes appearTitle {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+  }
+}
+.welcome-header h1 {
+  font-family: "Rampart One", cursive;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 800;
+  animation: appearTitle 0.2s ease-in-out;
+}
+.welcome-header p {
+  width: 60%;
+  color: var(--green);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 30px;
+}
+.login-form input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 20px 0px;
+  font-size: 15px;
+  opacity: 0.6;
+}
+.login-form input:focus {
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+.login-form input:nth-child(2) {
+  margin-bottom: 40px;
+}
+.login-form button {
+  border: none;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.login-form button:hover {
+  background-color: var(--green);
+}
+.login-form a {
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
