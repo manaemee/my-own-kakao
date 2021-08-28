@@ -46,3 +46,6 @@
 .nav__btn:hover {
   animation: navbigger 1s ease-in-out;
 }
+.nav__list {
+  background-color: green;
+}
